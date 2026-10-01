@@ -1,0 +1,329 @@
+[
+  {
+    "id": "english1",
+    "code": "GHS143",
+    "name": "اللغة الإنجليزية 1",
+    "kind": "general",
+    "sem": 1,
+    "u": 2
+  },
+  {
+    "id": "math1",
+    "code": "GS101",
+    "name": "رياضة 1",
+    "kind": "general",
+    "sem": 1,
+    "u": 3
+  },
+  {
+    "id": "politics",
+    "code": "GHS131",
+    "name": "مبادئ العلوم السياسية",
+    "kind": "general",
+    "sem": 1,
+    "u": 2
+  },
+  {
+    "id": "islamic",
+    "code": "GHS130",
+    "name": "ثقافة إسلامية",
+    "kind": "general",
+    "sem": 1,
+    "u": 2
+  },
+  {
+    "id": "arabic",
+    "code": "GHS141",
+    "name": "اللغة العربية",
+    "kind": "general",
+    "sem": 1,
+    "u": 2
+  },
+  {
+    "id": "prog-basics",
+    "code": "CS111",
+    "name": "أساسيات برمجة",
+    "kind": "major",
+    "sem": 1,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "intro-cs",
+    "code": "CS112",
+    "name": "مقدمة في علم الحاسوب",
+    "kind": "major",
+    "sem": 1,
+    "u": 3
+  },
+  {
+    "id": "electrical",
+    "code": "CS110",
+    "name": "مبادئ هندسة كهربائية",
+    "kind": "support",
+    "sem": 1,
+    "u": 4
+  },
+  {
+    "id": "english2",
+    "code": "GHS144",
+    "name": "اللغة الإنجليزية 2",
+    "kind": "general",
+    "sem": 2,
+    "u": 2
+  },
+  {
+    "id": "math2",
+    "code": "GS102",
+    "name": "رياضة 2",
+    "kind": "general",
+    "sem": 2,
+    "u": 3
+  },
+  {
+    "id": "stats",
+    "code": "GS105",
+    "name": "إحصاء واحتمالات",
+    "kind": "support",
+    "sem": 2,
+    "u": 4
+  },
+  {
+    "id": "digital",
+    "code": "CS113",
+    "name": "مقدمة أنظمة رقمية",
+    "kind": "support",
+    "sem": 2,
+    "u": 4
+  },
+  {
+    "id": "c-lang",
+    "code": "CS222",
+    "name": "لغة C",
+    "kind": "major",
+    "sem": 2,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "linear",
+    "code": "GS203",
+    "name": "جبر خطي ومنطق",
+    "kind": "support",
+    "sem": 3,
+    "u": 3
+  },
+  {
+    "id": "comp-org",
+    "code": "CS214",
+    "name": "تنظيم حاسبات",
+    "kind": "major",
+    "sem": 3,
+    "u": 4
+  },
+  {
+    "id": "sys-analysis",
+    "code": "CS131",
+    "name": "تحليل نظم",
+    "kind": "major",
+    "sem": 3,
+    "u": 4
+  },
+  {
+    "id": "discrete",
+    "code": "CS141",
+    "name": "تراكيب منفصلة",
+    "kind": "major",
+    "sem": 3,
+    "u": 3
+  },
+  {
+    "id": "oop",
+    "code": "CS325",
+    "name": "البرمجة الشيئية",
+    "kind": "major",
+    "sem": 3,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "numerical",
+    "code": "CS242",
+    "name": "طرق عددية وبرمجة",
+    "kind": "major",
+    "sem": 4,
+    "u": 4
+  },
+  {
+    "id": "ds1",
+    "code": "CS251",
+    "name": "تراكيب بيانات 1",
+    "kind": "major",
+    "sem": 4,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "software-eng",
+    "code": "CS232",
+    "name": "هندسة برمجيات",
+    "kind": "major",
+    "sem": 4,
+    "u": 4
+  },
+  {
+    "id": "databases",
+    "code": "CS271",
+    "name": "إدارة قواعد بيانات",
+    "kind": "major",
+    "sem": 4,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "visual1",
+    "code": "CS223",
+    "name": "البرمجة المرئية 1 (بيسك)",
+    "kind": "major",
+    "sem": 4,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "java",
+    "code": "CS327",
+    "name": "لغة جافا",
+    "kind": "major",
+    "sem": 4,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "ds2",
+    "code": "CS352",
+    "name": "تراكيب بيانات 2",
+    "kind": "major",
+    "sem": 5,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "os",
+    "code": "CS216",
+    "name": "نظم تشغيل",
+    "kind": "major",
+    "sem": 5,
+    "u": 4
+  },
+  {
+    "id": "visual2",
+    "code": "CS326",
+    "name": "البرمجة المرئية 2 (VB2)",
+    "kind": "major",
+    "sem": 5,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "comp-arch",
+    "code": "CS317",
+    "name": "معمارية الحاسوب",
+    "kind": "major",
+    "sem": 5,
+    "u": 4
+  },
+  {
+    "id": "networks",
+    "code": "CS381",
+    "name": "شبكات الحاسوب",
+    "kind": "major",
+    "sem": 5,
+    "u": 4
+  },
+  {
+    "id": "mobile",
+    "code": "CS392",
+    "name": "تطبيقات موبايل",
+    "kind": "major",
+    "sem": 5,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "sys-prog",
+    "code": "CS354",
+    "name": "برمجة نظم",
+    "kind": "major",
+    "sem": 6,
+    "u": 4
+  },
+  {
+    "id": "simulation",
+    "code": "CS353",
+    "name": "النمذجة والمحاكاة",
+    "kind": "major",
+    "sem": 6,
+    "u": 4
+  },
+  {
+    "id": "infosec",
+    "code": "CS394",
+    "name": "أمن المعلومات والبيانات",
+    "kind": "elective",
+    "sem": 6,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "net-security",
+    "code": "CS391",
+    "name": "بناء وتصميم وحماية الشبكات",
+    "kind": "elective",
+    "sem": 6,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "ai",
+    "code": "CS455",
+    "name": "الذكاء الاصطناعي",
+    "kind": "major",
+    "sem": 7,
+    "u": 4
+  },
+  {
+    "id": "web",
+    "code": "CS461",
+    "name": "تصميم مواقع إنترنت",
+    "kind": "major",
+    "sem": 7,
+    "u": 3,
+    "p": 1
+  },
+  {
+    "id": "graphics",
+    "code": "CS456",
+    "name": "الرسم بالحاسوب",
+    "kind": "major",
+    "sem": 7,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "image-proc",
+    "code": "CS393",
+    "name": "معالجة الصور",
+    "kind": "elective",
+    "sem": 7,
+    "u": 4,
+    "p": 1
+  },
+  {
+    "id": "web-advanced",
+    "code": "—",
+    "name": "تطوير مواقع الإنترنت المتقدمة",
+    "kind": "elective",
+    "sem": 7,
+    "u": 4
+  }
+]
