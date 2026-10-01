@@ -1,18 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Computer Science Student Bot — مكتبة قسم علوم الحاسوب على تلغرام
-====================================================================
-الإعداد بالتفصيل في README.md.
-
-هيكلة الملف:
-  1) بيانات ثابتة (تحميل courses.json / content.json)
-  2) دوال مساعدة بدون تلغرام (سهل اختبارها لحالها)
-  3) لوحات الأزرار (Reply / Inline)
-  4) هاندلرز الطالب (تصفح، بحث، شجرة، عن المكتبة)
-  5) هاندلرز الأدمن (إضافة/حذف/تعديل محتوى)
-  6) main()
-"""
-
 import json
 import logging
 import os
@@ -46,10 +32,11 @@ TREE_IMAGE = BASE_DIR / "assets" / "tree.jpg"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_IDS = {int(x) for x in os.environ.get("ADMIN_IDS", "").replace(" ", "").split(",") if x}
 ABOUT_TEXT = (
-    "🎓 *Computer Science Student Bot*\n\n"
+    "🎓 *Computer Science Bot*\n\n"
     "مكتبة إلكترونية لطلبة قسم علوم الحاسوب: شيتات وملخصات وأسئلة ومراجع لكل مادة، "
     "مرتبة حسب الفصل الدراسي.\n\n"
-    "لو عندك ملف تبي تضيفه، ابعته لمشرف المكتبة."
+    "لو عندك ملف تبي تضيفه، ابعته لمشرف المكتبة : @rayan_04_al ."
+    " Made by Rayan Alhajni ."
 )
 
 SEM_NAMES = ["الأول", "الثاني", "الثالث", "الرابع", "الخامس", "السادس", "السابع", "الثامن"]
